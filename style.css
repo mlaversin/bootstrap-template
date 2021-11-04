@@ -1,2 +1,41 @@
-font-family: 'Kaushan Script', cursive;
-font-family: 'Lato', sans-serif;
+/* *** Header *** */
+
+header {
+  background: url(./img/bgphotshop.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.text-intro {
+  padding-top: 300px;
+  padding-bottom: 200px;
+}
+
+.preTxt {
+  font-size: 70px;
+  margin: 0;
+  color: #2f2d2d;
+  line-height: 0.5;
+}
+
+h1 {
+  font-size: 150px;
+  color: #2f2d2d;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 700;
+}
+
+/* *** Navigation *** */
+
+.navbar-brand {
+  font-size: 45px !important;
+  font-family: 'Kaushan Script' !important;
+}
+
+.navbar a {
+  color: #fff !important;
+  font-family: 'Lato';
+  font-size: 22px;
+  font-weight: 600;
+}
