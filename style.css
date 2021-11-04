@@ -54,3 +54,24 @@ h1 {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
+/* *** First Banner *** */
+
+#ban1 {
+  position: relative;
+  background: url('./img/banniere1.png');
+  background-position: right;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+
+/* *** section *** */
+
+
+/* *** section *** */
+
+
+
+/* *** section *** */
