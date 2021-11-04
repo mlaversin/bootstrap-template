@@ -47,3 +47,10 @@ h1 {
   padding-bottom: 75px;
   border-bottom: 1px dashed #2f2d2d;
 }
+
+/* *** Icons section *** */
+
+#icons {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
