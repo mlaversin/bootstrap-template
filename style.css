@@ -39,3 +39,11 @@ h1 {
   font-size: 22px;
   font-weight: 600;
 }
+
+/* *** About section *** */
+
+#about {
+  margin-top: 75px;
+  padding-bottom: 75px;
+  border-bottom: 1px dashed #2f2d2d;
+}
