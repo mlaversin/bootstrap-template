@@ -133,6 +133,14 @@ h1 {
   font-weight: 400;
 }
 
+/* *** Progress section *** */
+
+#progress {
+  border-top: 1px dashed black;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 /* *** Cards Section *** */
 
 .offerH {
@@ -237,15 +245,13 @@ h1 {
   color: white;
 }
 
-/* *** Progress section *** */
+/* Clients section */
 
-#progress {
+#clients {
   border-top: 1px dashed black;
   border-bottom: 1px solid black;
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
-/* *** section *** */
 
 /* *** section *** */
