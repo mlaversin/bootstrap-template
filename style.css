@@ -133,7 +133,7 @@ h1 {
   font-weight: 400;
 }
 
-/* *** Prices Section *** */
+/* *** Cards Section *** */
 
 .offerH {
   font-size: 70px;
@@ -237,7 +237,14 @@ h1 {
   color: white;
 }
 
-/* *** section *** */
+/* *** Progress section *** */
+
+#progress {
+  border-top: 1px dashed black;
+  border-bottom: 1px solid black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
 /* *** section *** */
 
