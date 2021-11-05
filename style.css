@@ -116,6 +116,27 @@ h1 {
   }
 }
 
+/* *** Second Banner *** */
+
+#ban2 {
+  position: relative;
+  background: url('./img/Banniere2.png');
+  background-attachment: fixed; /* Parallax Effect */
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#carouselContent {
+  margin-top: 70px;
+  font-size: 35px;
+  color: black;
+  font-weight: 400;
+}
+
+/* *** section *** */
+
+/* *** section *** */
+
 /* *** section *** */
 
 /* *** section *** */
