@@ -28,14 +28,11 @@ h1 {
 
 /* *** Navigation *** */
 
-#main-nav {
-  transition: all 1s ease;
-}
-
 .navbar-brand {
   font-size: 45px !important;
   font-family: 'Kaushan Script' !important;
-  transition: all 0.4s ease;
+  /* transition for scroll back */
+  transition: all 0.8s ease;
 }
 
 .navbar a {
@@ -43,15 +40,17 @@ h1 {
   font-family: 'Lato';
   font-size: 22px;
   font-weight: 600;
+  /* transition for scroll back */
+  transition: all 0.8s ease;
 }
 
 .navbar.sticky .navbar-brand {
   font-size: 27px !important;
-  /* transition for scroll back */
-  transition: all 0.4s ease;
+  transition: all 0.8s ease;
 }
 .navbar.sticky a {
   font-size: 18px;
+  transition: all 0.8s ease;
 }
 
 /* *** About section *** */
@@ -74,6 +73,7 @@ h1 {
 #ban1 {
   position: relative;
   background: url('./img/banniere1.png');
+  background-size: cover;
   background-position: right;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -135,6 +135,7 @@ h1 {
 #ban2 {
   position: relative;
   background: url('./img/Banniere2.png');
+  background-size: cover;
   background-attachment: fixed; /* Parallax Effect */
   background-repeat: no-repeat;
   text-align: center;
