@@ -1,3 +1,10 @@
+// Navbar abimation on querySelectorAll
+
+window.addEventListener('scroll', function () {
+  const navbar = document.querySelector('.navbar');
+  navbar.classList.toggle('sticky', window.scrollY > 0);
+});
+
 // Gallery section - Expanding cards
 
 const panels = document.querySelectorAll('.panel');
